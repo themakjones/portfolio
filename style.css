@@ -1,0 +1,39 @@
+/* i {
+  font-size: 4rem;
+  color: #1e81b0;
+} */
+
+.skill-section {
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-icons {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  justify-items: center;
+}
+
+.icon {
+  font-size: 2.5rem;
+  color: #1e81b0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.icon span {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
